@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Of Flex</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="row m-0 col-12">
+        <div class="col-12 p-4">
+        </div>
+        <!-- ************** butons items -->
+        <div class="col-12 text-white row m-0 justify-content-between p-3 my-1">
+            <!-- justify-content -->
+            <select id="Justify" class="col-12 col-md-3  my-1">
+                <option value="Justify Contetnt" selected disabled>Justify Contetnt</option>
+                <option value="justify-content-center">justify-content-center</option>
+                <option value="justify-content-between">justify-content-between</option>
+                <option value="justify-content-around">justify-content-around</option>
+                <option value="justify-content-evenly">justify-content-evenly</option>
+                <option value="justify-content-end">justify-content-end</option>
+                <option value="justify-content-start">justify-content-start</option>
+            </select>
+            <!-- align-items -->
+            <select id="Align" class="col-12 col-md-3 my-1">
+                <option value="Align Items" selected disabled>Align Items</option>
+                <option value="align-items-start">align-items-start </option>
+                <option value="align-items-end">align-items-end</option>
+                <option value="align-items-center">align-items-center</option>
+                <option value="align-content-between">align-content-between</option>
+                <option value="align-content-around">align-content-around</option>
+                <option value="align-items-stretch">align-items-stretch</option>
+                <option value="align-items-baseline">align-items-baseline</option>
+            </select>
+            <!-- flex-direction -->
+            <select id="Direction" class="col-12 col-md-3 my-1">
+                <option value="Flex Direction" selected disabled>Flex Direction</option>
+                <option value="flex-column">flex-column</option>
+                <option value="flex-column-reverse">flex-column-reverse</option>
+                <option value="flex-row">flex-row</option>
+                <option value="flex-row-reverse">flex-row-reverse</option>
+            </select>
+            <!-- flex-wrap -->
+            <div class="col-6 col-md-2 d-flex align-items-center justify-content-evenly">
+                <label>
+                    <input id="checkbox" class="checkbox" type="checkbox">
+                </label>
+                <span>
+                      Flex wrap
+                </span>
+            </div>
+        </div>
+        <!-- ************** butons items end -->
+        <!-- ************** boxes items -->
+        <div id="allbox" class="col-12">
+            <section id="box" class="col-12 d-flex  text-white ">
+                <div class="col-2 rounded-3 me-1">200 X 200</div>
+                <div class="col-2 rounded-3 me-1">300 X 100</div>
+                <div class="col-2 rounded-3 me-1">100 X 300</div>
+                <div class="col-2 rounded-3 me-1">100 X 100</div>
+            </section>
+        </div>
+        <!-- ************** boxes items end -->
+
+    </div>
+    </section>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery-file.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
